@@ -205,7 +205,8 @@ function compare(test, liste) {
     return entries[0];;
 }
 
-document.getElementById("valider").onclick = function() {
+function logSubmit() {
+    e.preventDefault();
     var car1 = 1;
     var car2 = 1;
     var car3 = 1;
@@ -239,4 +240,5 @@ document.getElementById("valider").onclick = function() {
     var pourcentage = Math.round(100 - (res[1] * 100 / 12));
     alert(res[0] + " (correspondant à " + pourcentage + "%)");
 
-};
+}
+
