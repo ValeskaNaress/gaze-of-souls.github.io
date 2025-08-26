@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>L'Oeil d'Âme</title>
+    <script src="oeil_d_ame.js"></script>
+    <link rel="stylesheet" href="oeil_d_ame.css">
+</head>
+
+<body>
+
+    <form action="" method="post" onsubmit="logSubmit()" id="form">
+        <div class="line">
+            <grid-container class="horizontal">
+                <div class="vertical">
+                    <label class="center">Principalement égocentrique</label>
+                    <input type="radio" id="html" name="car1" value="1">
+                </div>
+                <div class="vertical">
+                   <label class="center">Plutôt égocentrique</label>
+                   <input type="radio" id="css" name="car1" value="2"> 
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt alocentrique</label>
+                    <input type="radio" id="css" name="car1" value="3">
+                </div>
+                <div class="vertical">
+                    <label class="center">Principalement alocentrique</label>
+                    <input type="radio" id="css" name="car1" value="4">
+                </div>
+            </grid-container>
+            <p>L'égocentrisme, c'est le "soi d'abord". Qu'il s'agisse de vouloir l'attention ou non, quelqu'un d'égocentrique est quelqu'un qui pense d'abord à ses propres besoins, avant de se demander quel est l'avis des autres.</p>
+            <p>L'Alocentrisme c'est le fait de penser d'abord aux autres. Ca peut signifier un désir du bien d'autrui, ou de l'altruisme, notamment.</p>
+        </div>
+
+        <div class="line">
+            <grid-container class="horizontal">
+                <div class="vertical">
+                    <label class="center">Principalement solitaire</label>
+                    <input type="radio" id="html" name="car2" value="1">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt solitaire</label>
+                    <input type="radio" id="html" name="car2" value="2">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt social</label>
+                    <input type="radio" id="html" name="car2" value="3">
+                </div>
+                <div class="vertical">
+                    <label class="center">Principalement social</label>
+                    <input type="radio" id="html" name="car2" value="4">
+                </div>
+            </grid-container>
+            <p>Le côté Solitaire désigne la capacité à être et à vivre seul.</p>
+            <p>Le côté Social désigne le fait de vouloir être entouré, de préférer avoir un entourage ou de la compagnie au quotidien</p>
+        </div>
+
+        <div class="line">
+            <grid-container class="horizontal">
+                <div class="vertical">
+                    <label class="center">Très peu Patient</label>
+                    <input type="radio" id="html" name="car3" value="1">
+                </div>
+                <div class="vertical">
+                    <label class="center">Assez peu patient</label>
+                    <input type="radio" id="html" name="car3" value="2">
+                </div>
+                <div class="vertical">
+                    <label class="center">Relativement patient</label>
+                    <input type="radio" id="html" name="car3" value="3">
+                </div>
+                <div class="vertical">
+                    <label class="center">Très Patient</label>
+                    <input type="radio" id="html" name="car3" value="4">
+                </div>
+            </grid-container>
+            <p>La Patience désigne la capacité à attendre que les choses se produisent. Quelqu'un qui ne supporte pas l'ennui et qui cherchera toujours quelque chose à faire est ici considéré comme 1, bien que ces termes puissent être nuancés.</p>
+        </div>
+
+        <div class="line">
+            <grid-container class="horizontal">
+                <div class="vertical">
+                    <label class="center">Principalement fixé</label>
+                    <input type="radio" id="html" name="car4" value="1">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt fixé</label>
+                    <input type="radio" id="html" name="car4" value="2">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt mouvant</label>
+                    <input type="radio" id="html" name="car4" value="3">
+                </div>
+                <div class="vertical">
+                    <label class="center">Principalement mouvant</label>
+                    <input type="radio" id="html" name="car4" value="4">
+                </div>
+            </grid-container>
+            <p>Fixé désigne ici la capacité à rester figé dans ses premières opinions. C'est le cas d'une personne qui se souvient toujours d'une première impression, ou d'une personne rancunière, par exemple.</p>
+            <p>Mouvant désigne au contraire quelqu'un qui va très aisément passer à autre chose ou changer d'avis ou d'opinion.</p>
+        </div>
+
+        <div class="line">
+            <grid-container class="horizontal">
+                <div class="vertical">
+                    <label class="center">Très franc</label>
+                    <input type="radio" id="html" name="car5" value="1">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt franc</label>
+                    <input type="radio" id="html" name="car5" value="2">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt dissimulateur</label>
+                    <input type="radio" id="html" name="car5" value="3">
+                </div>
+                <div class="vertical">
+                    <label class="center">Très dissimulateur</label>
+                    <input type="radio" id="html" name="car5" value="4">
+                </div>
+            </grid-container>
+            <p>On qualifie de franche une personne qui exprime sans crainte ce qu'elle pense.</p>
+            <p>On qualifie de dissimulatrice une personne qui cache ses véritables ressentis, soit par crainte de révéler ce qu'il ne faut pas, soit pour préserver son apparence, par exemple.</p>
+        </div>
+
+        <div class="line">
+            <grid-container class="horizontal">
+                <div class="vertical">
+                    <label class="center">Très peu curieux</label>
+                    <input type="radio" id="html" name="car6" value="1">
+                </div>
+                <div class="vertical">
+                    <label class="center">Assez peu curieux</label>
+                    <input type="radio" id="html" name="car6" value="2">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt curieux</label>
+                    <input type="radio" id="html" name="car6" value="3">
+                </div>
+                <div class="vertical">
+                    <label class="center">Très curieux</label>
+                    <input type="radio" id="html" name="car6" value="4">
+                </div>
+            </grid-container>
+            <p>La curiosité désigne l'envie de la personne d'aller voir des choses nouvelles, d'apprendre ce qu'il ne connait pas, quel qu'en soit le sujet</p>
+        </div>
+
+        <div class="line">
+            <grid-container class="horizontal">
+                <div class="vertical">
+                    <label class="center">Très prudent</label>
+                    <input type="radio" id="html" name="car7" value="1">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt prudent</label>
+                    <input type="radio" id="html" name="car7" value="2">
+                </div>
+                <div class="vertical">
+                    <label class="center">Plutôt impulsif</label>
+                    <input type="radio" id="html" name="car7" value="3">
+                </div>
+                <div class="vertical">
+                    <label class="center">Très impulsif</label>
+                    <input type="radio" id="html" name="car7" value="4">
+                </div>
+            </grid-container>
+            <p>La prudence désigne l'application apportée à éviter au maximum les erreurs ou les dangers, à prendre des précautions.</p>
+            <p>L'impulsivité, ou spontanité, désigne l'action immédiate, sans perdre de temps en précautions souvent vues comme excessives ou inutiles.</p>
+        </div>
+
+        <input type="submit" id="submit" value="Valider">
+    </form>
+
+</body>
+
+</html> 
