@@ -205,8 +205,8 @@ function compare(test, liste) {
     return entries[0];;
 }
 
-function logSubmit() {
-    e.preventDefault();
+function logSubmit(event) {
+    event.preventDefault();
     var car1 = 1;
     var car2 = 1;
     var car3 = 1;
@@ -241,4 +241,5 @@ function logSubmit() {
     alert(res[0] + " (correspondant à " + pourcentage + "%)");
 
 }
+
 
