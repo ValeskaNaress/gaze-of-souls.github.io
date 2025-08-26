@@ -67,7 +67,7 @@ var liste = {
     "Dhole" : [3,3,2,3,4,3,2],
     "Beagle" : [3,3,2,3,1,3,3],
     "Chien viverrin" : [3,2,3,3,4,4,4],
-    "Chow2chow" : [2,3,3,3,1,2,2],
+    "Chow-chow" : [2,3,3,3,1,2,2],
     "Lycaon" : [4,4,3,3,2,3,1],
     "Labrador" : [3,4,4,3,1,4,3],
     "Castor" : [3,4,1,3,3,4,3],
@@ -175,7 +175,7 @@ var liste = {
     "Chouette hulotte" : [1,1,3,3,4,2,3],
     "Balbusard pêcheur" : [2,1,4,1,2,1,3],
     "Epervier" : [2,1,4,3,1,2,2],
-    "Hibou grand2duc" : [1,1,4,2,4,2,1],
+    "Hibou grand-duc" : [1,1,4,2,4,2,1],
     "Chouette effraie" : [1,1,4,3,3,3,3],
     "Buse de Harris" : [3,3,4,4,1,2,2],
     "Serpent des blés" : [1,1,2,4,2,3,1],
@@ -241,5 +241,6 @@ function logSubmit(event) {
     alert(res[0] + " (correspondant à " + pourcentage + "%)");
 
 }
+
 
 
